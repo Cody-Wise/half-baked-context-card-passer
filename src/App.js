@@ -2,7 +2,7 @@ import './App.css';
 import Player from './Player';
 import CardList from './CardList';
 import ExecutePassButton from './ExecutePassButton';
-import { useGameContext } from '/GameProvider';
+import { useGameContext } from './GameProvider.js';
 
 function App() {
   const { selectedCard, deck, playerOneHand, playerTwoHand, playerThreeHand } = useGameContext();

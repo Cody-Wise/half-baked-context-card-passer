@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './Card';
-import { findCardIndex } from '/utils.js';
+import { findCardIndex } from './utils.js';
 import { useGameContext } from './GameProvider';
 
 export default function ExecutePassButton() {
